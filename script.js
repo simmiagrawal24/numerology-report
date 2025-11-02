@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // This URL is correct.
-                const res = await fetch('https://keshvaggrawal.pythonanywhere.com/api/calc', {
+                const res = await fetch('https://siagrawal.pythonanywhere.com/api/calc', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)

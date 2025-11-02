@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     // --- URLs ---
-    const LOGIN_URL = 'https://keshvaggrawal.pythonanywhere.com/api/login';
-    const GET_REPORTS_URL = 'https://keshvaggrawal.pythonanywhere.com/api/get-reports';
+    const LOGIN_URL = 'https://siagrawal.pythonanywhere.com/api/login';
+    const GET_REPORTS_URL = 'https://siagrawal.pythonanywhere.com/api/get-reports';
     
     const token = localStorage.getItem('adminToken');
 
